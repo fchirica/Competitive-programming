@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1384862776 source:e:\programming\dtcsu\main.cpp
+	<stdio.h>
+	<tr1/unordered_set>
+

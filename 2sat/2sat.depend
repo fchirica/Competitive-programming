@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1383250330 source:e:\programming\2sat\main.cpp
+	<stdio.h>
+	<vector>
+

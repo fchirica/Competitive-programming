@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1382039702 source:e:\programming\iitkwpci\main.cpp
+	<stdio.h>
+	<vector>
+

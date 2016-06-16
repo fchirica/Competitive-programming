@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1378331533 source:e:\programming\aho\main.cpp
+	<vector>
+	<map>
+	<set>
+	<algorithm>
+	<iostream>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<cassert>
+

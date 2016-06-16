@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1373116537 source:c:\users\florin\desktop\cf\cvxpoly\main.cpp
+	<stdio.h>
+	<algorithm>
+	<math.h>
+

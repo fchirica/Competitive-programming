@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1395670856 source:e:\programming\lights2\main.cpp
+	<stdio.h>
+	<iostream>
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1377003534 source:e:\programming\ausoara\main.cpp
+	<vector>
+	<map>
+	<set>
+	<algorithm>
+	<iostream>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<cstring>
+

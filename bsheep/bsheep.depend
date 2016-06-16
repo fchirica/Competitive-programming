@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1366173838 source:e:\work\bsheep\main.cpp
+	<stdio.h>
+	<algorithm>
+	<math.h>
+

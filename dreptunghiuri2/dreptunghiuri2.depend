@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1325438632 source:c:\work\projects\dreptunghiuri2\main.cpp
+	<stdio.h>
+	<algorithm>
+

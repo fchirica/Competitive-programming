@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="970" topLine="37" />
+	</File>
+	<File name="reborn.in" open="1" top="0" tabpos="2">
+		<Cursor position="54" topLine="0" />
+	</File>
+	<File name="reborn.out" open="1" top="1" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

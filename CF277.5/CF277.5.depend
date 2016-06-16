@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1416245620 source:e:\programming\cf277.5\main.cpp
+	<vector>
+	<map>
+	<set>
+	<deque>
+	<bitset>
+	<queue>
+	<algorithm>
+	<iostream>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<string>
+	<cstring>
+

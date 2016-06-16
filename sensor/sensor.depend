@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1405003005 source:e:\programming\sensor\main.cpp
+	<stdio.h>
+	<algorithm>
+	<vector>
+	<string.h>
+

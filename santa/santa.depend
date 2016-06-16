@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1393797618 source:e:\programming\santa\main.cpp
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<string.h>
+	<map>
+	<cassert>
+

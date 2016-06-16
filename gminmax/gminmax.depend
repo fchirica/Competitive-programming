@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1417547720 source:e:\programming\gminmax\main.cpp
+	<stdio.h>
+	<vector>
+	<set>
+

@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1376915450 source:c:\users\florin\desktop\cf\amici2\main.cpp
+	<vector>
+	<list>
+	<map>
+	<set>
+	<deque>
+	<stack>
+	<bitset>
+	<algorithm>
+	<functional>
+	<numeric>
+	<utility>
+	<sstream>
+	<iostream>
+	<iomanip>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<cstring>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1419258658 source:e:\programming\ciclu2\main.cpp
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<vector>
+	<string.h>
+

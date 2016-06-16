@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1367770871 source:e:\work\cf\main.cpp
+	<vector>
+	<list>
+	<map>
+	<set>
+	<deque>
+	<stack>
+	<bitset>
+	<algorithm>
+	<functional>
+	<numeric>
+	<utility>
+	<sstream>
+	<iostream>
+	<iomanip>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<string.h>
+
+1426090061 source:e:\programming\cf\main.cpp
+	<stdio.h>
+	<string.h>
+	<string>
+	<map>
+

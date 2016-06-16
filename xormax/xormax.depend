@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1379701417 source:e:\programming\xormax\main.cpp
+	<stdio.h>
+	<vector>
+

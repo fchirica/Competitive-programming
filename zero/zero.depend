@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1383055234 source:e:\programming\zero\main.cpp
+	<stdio.h>
+	<cmath>
+	<cstring>
+	<vector>
+

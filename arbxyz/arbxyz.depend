@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1456586274 source:e:\workspace\arbxyz\main.cpp
+	<stdio.h>
+	<vector>
+	<algorithm>
+	<string.h>
+

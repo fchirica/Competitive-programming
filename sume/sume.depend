@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1395053259 source:e:\programming\sume\main.cpp
+	<stdio.h>
+	<set>
+	<algorithm>
+

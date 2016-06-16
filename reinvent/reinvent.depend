@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1381330302 source:e:\programming\reinvent\main.cpp
+	<stdio.h>
+	<vector>
+

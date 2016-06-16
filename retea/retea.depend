@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1327941270 source:c:\work\projects\retea\main.cpp
+	<stdio.h>
+	<algorithm>
+

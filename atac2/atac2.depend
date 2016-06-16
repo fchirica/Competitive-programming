@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1381675996 source:e:\programming\atac2\main.cpp
+	<stdio.h>
+	<vector>
+	<string.h>
+	<queue>
+

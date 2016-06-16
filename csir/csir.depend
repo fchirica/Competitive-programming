@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1392459148 source:e:\programming\csir\main.cpp
+	<stdio.h>
+	<string>
+	<string.h>
+

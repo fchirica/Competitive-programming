@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1425592869 source:e:\programming\berarii\main.cpp
+	<stdio.h>
+	<vector>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1416356606 source:e:\programming\avioane\main.cpp
+	<stdio.h>
+	<cmath>
+	<algorithm>
+

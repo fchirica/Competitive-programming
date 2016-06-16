@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1440104444 source:e:\oi\workspace\infoarena\sortnet\main.cpp
+	<stdio.h>
+	<map>
+	<vector>
+	<iostream>
+

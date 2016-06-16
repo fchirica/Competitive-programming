@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1371760411 source:e:\work\129\main.cpp
+	<stdio.h>
+	<algorithm>
+	<math.h>
+	<cassert>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1416163134 source:e:\programming\permlcs\main.cpp
+	<stdio.h>
+	<vector>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1326133163 source:c:\work\projects\nor\main.cpp
+	<stdio.h>
+	<assert.h>
+	<vector>
+	<algorithm>
+

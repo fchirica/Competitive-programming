@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1383847603 source:e:\programming\ograzi\main.cpp
+	<stdio.h>
+	<algorithm>
+	<vector>
+

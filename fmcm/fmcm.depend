@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1374584178 source:c:\users\florin\desktop\cf\fmcm\main.cpp
+	<stdio.h>
+	<vector>
+	<queue>
+
+1395924003 source:e:\programming\fmcm\main.cpp
+	<stdio.h>
+	<vector>
+	<queue>
+

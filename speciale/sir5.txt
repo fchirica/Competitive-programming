@@ -1,0 +1,160 @@
+#include <stdio.h>
+#include <string.h>
+#define MOD 666013
+
+int L, x[35], dp[35], mat[35][35], sol[35][35], sq[35][35];
+
+void baga(int &A, int B)
+{
+	A += B;
+	if (A >= MOD)
+		A = A - MOD;
+}
+
+void solveEven(int start, int stop)
+{
+	int i;
+	
+	for (i = start; i <= stop; i ++)
+	{
+		dp[i % (L + 1)] = dp[(i - 1) % (L + 1)];
+		if (i >= L)
+			if (i - start + 1 < L)
+				baga(dp[i % (L + 1)], dp[(i - L) % (L + 1)]);
+	}
+}
+
+void makeMatrix()
+{
+	int i;
+	
+	mat[1][1] = mat[1][L] = 1;
+	
+	for (i = 2; i <= L + 1; i ++)
+		mat[i][i - 1] = 1;
+}
+
+void inm(int A[35][35], int B[35][35])
+{
+	int i, j, k;
+	
+	for (i = 1; i <= L + 1; i ++)
+		for (j = 1; j <= L + 1; j ++)
+		{
+			sq[i][j] = 0;
+			for (k = 1; k <= L + 1; k ++)
+				sq[i][j] = (sq[i][j] + 1LL * A[i][k] * B[k][j]) % MOD;
+		}
+}
+
+void fastpow(int pw)
+{
+	if (pw == 1)
+	{
+		memcpy(sol, mat, sizeof(sol));
+		return ;
+	}
+	
+	fastpow(pw / 2);
+	
+	inm(sol, sol); 
+	memcpy(sol, sq, sizeof(sol));
+	
+	if (pw % 2)
+	{
+		inm(sol, mat);
+		memcpy(sol, sq, sizeof(sq));
+	}
+}
+
+void solveOdd(int start, int stop)
+{
+	int i, j, X[35], X2[35], process = stop - start + 1;
+	
+	if (start <= L)
+	{
+		for (i = start; i < L && process; i ++)
+			dp[i] = 1, process --;
+		if (process)
+			dp[L] = 2, process --;
+	}			
+	if (process == 0)
+		return ;
+	if (start <= L)
+		start = L + 1;
+	
+	int tmp = 0;
+	
+	for (i = start - 1; i >= start - L - 1; i --)
+		X[++ tmp] = dp[i % (L + 1)];
+		
+	fastpow(process);
+	
+	for (i = 1; i <= L + 1; i ++)
+	{
+		X2[i] = 0;
+		for (j = 1; j <= L + 1; j ++)
+			X2[i] = (X2[i] + 1LL * sol[i][j] * X[j]) % MOD;
+	}
+	
+	tmp = 0;
+	for (i = stop; i >= stop - L; i --)
+		dp[i % (L + 1)] = X2[++ tmp];
+}
+
+int main()
+{
+	int i, N, sol = 1;
+	
+	freopen("sir5.in", "r", stdin);
+	freopen("sir5.out", "w", stdout);
+	
+	scanf("%d%d", &N, &L);
+	for (i = 1; i <= N; i ++)
+		scanf("%d", &x[i]);
+	
+	makeMatrix();
+	
+	int pos = 1;
+	dp[0] = 1;
+	
+	for (i = 1; i <= N; i ++)
+	{
+		int lim = pos + x[i] - 1;
+		bool isLarge = false;
+		
+		if (i % 2)
+		{
+			solveOdd(pos, lim);
+			if (i == N)
+				sol = 1LL * sol * dp[lim % (L + 1)] % MOD;
+		}
+		else
+		{
+			if (x[i] <= 100)
+			{
+				solveEven(pos, lim);
+				if (i == N)
+					sol = 1LL * sol * dp[lim % (L + 1)] % MOD;
+			}
+			else
+			{
+				lim = pos + L - 2;
+				solveEven(pos, lim);
+				sol = 1LL * sol * dp[lim % (L + 1)] % MOD;
+					
+				isLarge = true;
+				pos = 1;
+				memset(dp, 0, sizeof(dp));
+				dp[0] = 1;
+				x[i + 1] += L - 1;
+			}
+		}
+		
+		if (!isLarge)
+			pos = lim + 1;
+	}
+	
+	printf("%d", sol);
+	return 0;
+}

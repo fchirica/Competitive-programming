@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1408805439 source:e:\programming\jocs\main.cpp
+	<stdio.h>
+	<string.h>
+	<algorithm>
+

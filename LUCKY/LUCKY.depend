@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1384812519 source:e:\programming\lucky\main.cpp
+	<stdio.h>
+	<vector>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1381584413 source:e:\programming\virus\main.cpp
+	<stdio.h>
+	<string.h>
+	<vector>
+

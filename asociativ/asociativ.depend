@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1326209832 source:c:\work\projects\asociativ\main.cpp
+	<stdio.h>
+	<string.h>
+

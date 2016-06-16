@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1356605998 source:c:\work\projects\placute\main.cpp
+	<stdio.h>
+	<vector>
+	<set>
+	<algorithm>
+

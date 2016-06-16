@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1399489946 source:e:\programming\tap2012d\main.cpp
+	<vector>
+	<map>
+	<set>
+	<deque>
+	<bitset>
+	<algorithm>
+	<iostream>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<string>
+	<cstring>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1372670704 source:e:\work\hull\main.cpp
+	<stdio.h>
+	<algorithm>
+	<math.h>
+

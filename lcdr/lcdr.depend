@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1417462838 source:e:\programming\lcdr\main.cpp
+	<stdio.h>
+	<algorithm>
+	<string.h>
+

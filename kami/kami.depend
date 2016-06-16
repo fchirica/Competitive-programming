@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1403875304 source:e:\programming\kami\main.cpp
+	<stdio.h>
+	<algorithm>
+

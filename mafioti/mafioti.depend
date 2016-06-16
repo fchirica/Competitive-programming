@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1415736345 source:e:\programming\mafioti\main.cpp
+	<stdio.h>
+	<algorithm>
+	<map>
+

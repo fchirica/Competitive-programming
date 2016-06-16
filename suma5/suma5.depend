@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1413408037 source:e:\programming\suma5\main.cpp
+	<stdio.h>
+	<set>
+	<vector>
+

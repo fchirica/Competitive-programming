@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1418076312 source:e:\programming\treesearch\main.cpp
+	<stdio.h>
+	<vector>
+	<algorithm>
+

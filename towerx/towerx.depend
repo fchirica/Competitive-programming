@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1376918049 source:c:\users\florin\desktop\cf\towerx\main.cpp
+	<vector>
+	<list>
+	<map>
+	<set>
+	<deque>
+	<stack>
+	<bitset>
+	<algorithm>
+	<functional>
+	<numeric>
+	<utility>
+	<sstream>
+	<iostream>
+	<iomanip>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<cstring>
+
+1376995191 source:e:\programming\towerx\main.cpp
+	<vector>
+	<list>
+	<map>
+	<set>
+	<deque>
+	<stack>
+	<bitset>
+	<algorithm>
+	<functional>
+	<numeric>
+	<utility>
+	<sstream>
+	<iostream>
+	<iomanip>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<cstring>
+

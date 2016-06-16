@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1379782512 source:e:\programming\sublex\main.cpp
+	<stdio.h>
+	<string.h>
+	<algorithm>
+

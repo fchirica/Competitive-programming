@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1370183192 source:e:\work\10245\main.cpp
+	<stdio.h>
+	<algorithm>
+	<math.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1372682124 source:e:\work\cooling\main.cpp
+	<stdio.h>
+	<vector>
+

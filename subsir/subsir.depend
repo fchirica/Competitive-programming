@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1435879404 source:c:\users\florin\desktop\oi\workspace\infoarena\subsir\main.cpp
+	<cstdio>
+	<cstring>
+	<algorithm>
+

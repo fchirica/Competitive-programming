@@ -1,0 +1,88 @@
+#include <stdio.h>
+#include <set>
+ 
+using namespace std;
+ 
+multiset <pair <long long, int> > H;
+ 
+void swap(pair <long long, int> &A, pair <long long, int> &B)
+{
+    pair <long long, int> tmp;
+ 
+    tmp = A;
+    A = B;
+    B = tmp;
+}
+ 
+void sortThem(pair <long long, int> &A, pair <long long, int> &B, pair <long long, int> &C)
+{
+    if (A.first > B.first)
+        swap(A, B);
+    if (A.first > C.first)
+        swap(A, C);
+    if (B.first > C.first)
+        swap(B, C);
+}
+ 
+void move(pair <long long, int> &A, pair <long long, int> &B)
+{
+    printf("%d %d\n", A.second, B.second);
+    B.first = B.first - A.first;
+    A.first = A.first * 2;
+}
+ 
+pair <long long, int> CB, CC;
+ 
+void solve(pair <long long, int> A, pair <long long, int> B, pair <long long, int> C)
+{
+    if (A.first == 0)
+    {
+        CB = B;
+        CC = C;
+        return ;
+    }
+ 
+    long long value = B.first / A.first;
+    int i;
+ 
+    for (i = 0; (1LL << i) <= value; i ++)
+        if (value & (1LL << i))
+            move(A, B);
+        else
+            move(A, C);
+ 
+    sortThem(A, B, C);
+    solve(A, B, C);
+}
+ 
+int main()
+{
+    int i, N;
+ 
+    freopen("aladdin3.in", "r", stdin);
+    freopen("aladdin3.out", "w", stdout);
+ 
+    scanf("%d", &N);
+    for (i = 1; i <= N; i ++)
+    {
+        long long x;
+        scanf("%lld", &x);
+        H.insert(make_pair(x, i));
+    }
+ 
+    for (i = 1; i <= N - 2; i ++)
+    {
+        pair <long long, int> A, B, C;
+        A = *H.begin();
+        H.erase(H.begin());
+        B = *H.begin();
+        H.erase(H.begin());
+        C = *H.begin();
+        H.erase(H.begin());
+        solve(A, B, C);
+        H.insert(CB);
+        H.insert(CC);
+    }
+ 
+    return 0;
+}

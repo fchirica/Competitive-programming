@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1379879516 source:e:\programming\concurs\main.cpp
+	<stdio.h>
+	<vector>
+

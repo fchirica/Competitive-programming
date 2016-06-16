@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1388267592 source:e:\programming\hacker\main.cpp
+	<stdio.h>
+	<string.h>
+	<string>
+

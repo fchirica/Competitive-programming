@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1388359710 source:e:\programming\farey\main.cpp
+	<stdio.h>
+	<math.h>
+	<algorithm>
+

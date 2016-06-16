@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1347467377 source:c:\work\projects\catun\main.cpp
+	<stdio.h>
+	<vector>
+
+1380115292 source:e:\programming\catun\main.cpp
+	<stdio.h>
+	<vector>
+

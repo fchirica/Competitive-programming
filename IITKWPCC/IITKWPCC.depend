@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1382388661 source:e:\programming\iitkwpcc\main.cpp
+	<stdio.h>
+	<map>
+	<algorithm>
+	<math.h>
+	<complex>
+

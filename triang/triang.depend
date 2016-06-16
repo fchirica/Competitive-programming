@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1380025389 source:e:\programming\triang\main.cpp
+	<stdio.h>
+	<algorithm>
+	<complex>
+	<cmath>
+

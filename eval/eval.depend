@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1366565909 source:e:\work\eval\main.cpp
+	<stdio.h>
+	<string.h>
+
+1386499948 source:e:\programming\eval\main.cpp
+	<stdio.h>
+	<math.h>
+	<vector>
+	<string>
+	<iostream>
+	<string.h>
+	<time.h>
+	<cassert>
+	<stdlib.h>
+	<map>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1380476442 source:e:\programming\posta2\main.cpp
+	<stdio.h>
+	<algorithm>
+	<vector>
+

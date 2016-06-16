@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1382273577 source:e:\programming\ratina\main.cpp
+	<stdio.h>
+	<string>
+	<string.h>
+	<vector>
+

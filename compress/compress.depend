@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1326205799 source:c:\work\projects\compress\main.cpp
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+

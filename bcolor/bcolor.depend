@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1395943957 source:e:\programming\bcolor\main.cpp
+	<stdio.h>
+	<bitset>
+	<iostream>
+

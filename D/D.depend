@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1372841231 source:c:\users\florin\desktop\cf\d\main.cpp
+	<algorithm>
+	<bitset>
+	<cmath>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<deque>
+	<functional>
+	<iomanip>
+	<iostream>
+	<list>
+	<map>
+	<numeric>
+	<queue>
+	<set>
+	<sstream>
+	<stack>
+	<utility>
+	<vector>
+	<cstring>
+
+1421606606 source:e:\programming\d\main.cpp
+	<stdio.h>
+	<string.h>
+

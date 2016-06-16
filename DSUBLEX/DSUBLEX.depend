@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1379170532 source:e:\programming\dsublex\main.cpp
+	<string>
+	<vector>
+	<algorithm>
+	<cmath>
+	<set>
+	<queue>
+	<map>
+	<cstdio>
+	<iomanip>
+	<sstream>
+	<iostream>
+	<cstring>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1417952447 source:e:\programming\mess\main.cpp
+	<stdio.h>
+	<iostream>
+	<algorithm>
+	<vector>
+	<map>
+

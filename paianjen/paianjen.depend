@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1438363937 source:c:\users\florin\desktop\oi\workspace\infoarena\paianjen\main.cpp
+	<iostream>
+	<stdio.h>
+	<math.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1415983900 source:e:\programming\drumuri2\main.cpp
+	<stdio.h>
+	<vector>
+	<string.h>
+	<iostream>
+

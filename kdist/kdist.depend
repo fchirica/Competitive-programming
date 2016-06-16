@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1404861351 source:e:\programming\kdist\main.cpp
+	<stdio.h>
+	<algorithm>
+	<vector>
+

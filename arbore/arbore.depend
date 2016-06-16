@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1383682011 source:e:\programming\arbore\main.cpp
+	<stdio.h>
+	<vector>
+	<bitset>
+	<math.h>
+

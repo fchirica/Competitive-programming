@@ -1,0 +1,79 @@
+#include <stdio.h>
+#include <vector>
+#include <algorithm>
+#define NMAX 100100
+
+using namespace std;
+
+vector <int> G[NMAX];
+vector <int> Sum[NMAX];
+int x[NMAX], TT[NMAX], ord[NMAX];
+
+bool comp(int A, int B)
+{
+	return x[A] > x[B];
+}
+
+int solve(int nod, int times)
+{
+	if (nod == 1)
+		return times;
+
+	int father = TT[nod], st = 0, dr = G[father].size() - 1, med, sol;
+
+	while (st <= dr)
+	{
+		med = (st + dr) / 2;
+
+		if (x[G[father][med]] >= x[nod] - times + 1)
+			st = med + 1, sol = med;
+		else
+			dr = med - 1;
+	}
+
+	int ret = Sum[father][sol] - (sol + 1) * (x[nod] - times + 1) + ord[nod];
+	return solve(father, ret);
+}
+
+int main()
+{
+	int i, j, N, M;
+	vector <int> :: iterator it;
+
+	freopen("arb3.in", "r", stdin);
+	freopen("arb3.out", "w", stdout);
+
+	scanf("%d%d", &N, &M);
+	for (i = 2; i <= N; i ++)
+	{
+		scanf("%d", &TT[i]);
+		G[TT[i]].push_back(i);
+	}
+	for (i = 1; i <= N; i ++)
+		scanf("%d", &x[i]);
+
+	for (i = 1; i <= N; i ++)
+	{
+		int tmp = 0;
+
+		sort(G[i].begin(), G[i].end(), comp);
+		for (j = 0; j < G[i].size(); j ++)
+		{
+			if (j == 0)
+				Sum[i].push_back(x[G[i][j]]);
+			else
+				Sum[i].push_back(Sum[i][j - 1] + x[G[i][j]]);
+			ord[G[i][j]] = ++ tmp;
+		}
+	}
+
+	for (i = 1; i <= M; i ++)
+	{
+		int nod, times;
+
+		scanf("%d%d", &nod, &times);
+		printf("%d\n", solve(nod, times));
+	}
+
+	return 0;
+}

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1377103926 source:e:\programming\mstack\main.cpp
+	<vector>
+	<map>
+	<set>
+	<algorithm>
+	<iostream>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<cstring>
+

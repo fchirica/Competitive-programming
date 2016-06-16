@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1419197037 source:e:\programming\distancesum\main.cpp
+	<stdio.h>
+	<algorithm>
+	<vector>
+

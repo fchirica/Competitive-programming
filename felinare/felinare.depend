@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1381766089 source:e:\programming\felinare\main.cpp
+	<stdio.h>
+	<vector>
+	<string.h>
+

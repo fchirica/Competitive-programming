@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1379180056 source:e:\programming\128b\main.cpp
+	<vector>
+	<map>
+	<set>
+	<algorithm>
+	<iostream>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<cassert>
+

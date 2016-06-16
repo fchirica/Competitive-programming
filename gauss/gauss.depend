@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1372368407 source:e:\work\gauss\main.cpp
+	<stdio.h>
+	<algorithm>
+
+1372368407 source:e:\programming\gauss\main.cpp
+	<stdio.h>
+	<algorithm>
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1377355363 source:e:\programming\confuzie\main.cpp
+	<vector>
+	<map>
+	<set>
+	<algorithm>
+	<iostream>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<cassert>
+

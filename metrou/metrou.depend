@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1428142976 source:e:\programming\metrou\main.cpp
+	<stdio.h>
+	<vector>
+	<time.h>
+	<stdlib.h>
+

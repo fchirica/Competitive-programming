@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1378130416 source:e:\programming\trie\main.cpp
+	<vector>
+	<map>
+	<set>
+	<algorithm>
+	<iostream>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<cassert>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1372412376 source:e:\work\rsa\main.cpp
+	<stdio.h>
+	<assert.h>
+

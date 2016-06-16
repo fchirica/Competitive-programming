@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1386101083 source:e:\programming\pol\main.cpp
+	<stdio.h>
+	<string.h>
+	<set>
+	<algorithm>
+

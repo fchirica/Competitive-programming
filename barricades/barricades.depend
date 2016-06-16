@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1425088621 source:e:\programming\barricades\main.cpp
+	<stdio.h>
+	<vector>
+	<algorithm>
+

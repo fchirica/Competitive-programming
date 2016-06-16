@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1383168006 source:e:\programming\jane\main.cpp
+	<stdio.h>
+	<math.h>
+	<algorithm>
+	<map>
+

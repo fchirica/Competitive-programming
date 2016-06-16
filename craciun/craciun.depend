@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1365915634 source:e:\work\craciun\main.cpp
+	<cstdio>
+	<cassert>
+	<cstring>
+	<vector>
+	<algorithm>
+	<queue>
+

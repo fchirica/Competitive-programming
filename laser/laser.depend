@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1384609578 source:e:\programming\laser\main.cpp
+	<stdio.h>
+	<algorithm>
+	<math.h>
+

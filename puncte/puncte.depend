@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1416350547 source:e:\programming\puncte\main.cpp
+	<stdio.h>
+	<math.h>
+	<iostream>
+

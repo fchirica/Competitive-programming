@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1370602898 source:e:\work\distance\main.cpp
+	<stdio.h>
+	<vector>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1404737457 source:e:\programming\posta3\main.cpp
+	<stdio.h>
+	<vector>
+
+1404737376 source:e:\programming\posta3\elf.cpp
+	<stdio.h>
+	<vector>
+

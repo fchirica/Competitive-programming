@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1402088361 source:e:\programming\android\main.cpp
+	<fstream>
+	<cstdio>
+	<set>
+	<stack>
+	<vector>
+	<algorithm>
+	<cstring>
+	<bitset>
+	<cmath>
+	<iomanip>
+	<queue>
+

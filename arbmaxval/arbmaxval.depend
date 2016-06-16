@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1428224269 source:e:\programming\arbmaxval\main.cpp
+	<stdio.h>
+	<vector>
+	<set>
+	<string.h>
+

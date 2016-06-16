@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1399314687 source:e:\programming\tandv\main.cpp
+	<stdio.h>
+	<iostream>
+	<queue>
+	<algorithm>
+

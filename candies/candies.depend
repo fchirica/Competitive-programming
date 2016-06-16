@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1377853731 source:e:\programming\candies\main.cpp
+	<stdio.h>
+	<vector>
+	<algorithm>
+

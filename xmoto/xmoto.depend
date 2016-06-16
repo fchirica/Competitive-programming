@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1381004668 source:e:\programming\xmoto\main.cpp
+	<stdio.h>
+	<algorithm>
+	<cassert>
+

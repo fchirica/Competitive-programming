@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1381667689 source:e:\programming\261\main.cpp
+	<stdio.h>
+	<math.h>
+	<map>
+	<set>
+

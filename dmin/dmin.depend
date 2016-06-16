@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1383150769 source:e:\programming\dmin\main.cpp
+	<cstdio>
+	<cmath>
+	<cstring>
+	<algorithm>
+	<deque>
+	<vector>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1326463092 source:c:\work\projects\gramezi\main.cpp
+	<stdio.h>
+	<algorithm>
+

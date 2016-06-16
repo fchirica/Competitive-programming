@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1387024991 source:e:\programming\brazi\main.cpp
+	<stdio.h>
+	<vector>
+	<map>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1383495956 source:e:\programming\overlap\main.cpp
+	<stdio.h>
+	<algorithm>
+	<map>
+	<string.h>
+

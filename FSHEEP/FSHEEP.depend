@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1374617509 source:c:\users\florin\desktop\cf\fsheep\main.cpp
+	<stdio.h>
+	<algorithm>
+	<math.h>
+	<cassert>
+	<cmath>
+	<iostream>
+

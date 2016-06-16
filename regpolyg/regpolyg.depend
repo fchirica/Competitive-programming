@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1366438007 source:e:\work\regpolyg\main.cpp
+	<stdio.h>
+	<math.h>
+	<string.h>
+

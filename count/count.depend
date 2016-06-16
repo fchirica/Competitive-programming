@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1383341567 source:e:\programming\count\main.cpp
+	<stdio.h>
+	<set>
+

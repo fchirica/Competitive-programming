@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1381079033 source:e:\programming\submatrix\main.cpp
+	<stdio.h>
+	<string.h>
+	<map>
+

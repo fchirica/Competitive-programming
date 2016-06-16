@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1417016883 source:e:\programming\inversari\main.cpp
+	<stdio.h>
+	<vector>
+

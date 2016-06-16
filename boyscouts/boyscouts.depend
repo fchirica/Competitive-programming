@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1372672727 source:e:\work\boyscouts\main.cpp
+	<stdio.h>
+	<algorithm>
+	<math.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1394234248 source:e:\programming\aladdin\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

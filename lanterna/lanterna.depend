@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1382553586 source:e:\programming\lanterna\main.cpp
+	<stdio.h>
+	<vector>
+

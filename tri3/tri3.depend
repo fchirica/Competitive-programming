@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1395143972 source:e:\programming\tri3\main.cpp
+	<stdio.h>
+	<iostream>
+	<math.h>
+	<vector>
+	<algorithm>
+

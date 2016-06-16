@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1370790489 source:e:\work\well\main.cpp
+	<stdio.h>
+	<set>
+	<algorithm>
+
