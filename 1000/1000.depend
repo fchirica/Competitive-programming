@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1391091243 source:e:\programming\1000\main.cpp
-	<fstream>
-	<vector>
-	<cstdlib>
-	<ctime>
-

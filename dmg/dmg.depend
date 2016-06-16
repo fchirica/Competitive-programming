@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1389456082 source:e:\programming\dmg\main.cpp
-	<stdio.h>
-	<algorithm>
-	<math.h>
-	<complex>
-	<cassert>
-	<map>
-
